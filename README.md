@@ -31,7 +31,7 @@ This is a nessacery course. If you don't, some build error would be occured.
 
 ## Usage
 
-After installation, open 'YahooFinance.xcworkspace' and start build & run.
+After installation, open 'FlickerFeed.xcworkspace' and start build & run.
 
 ## License
 
