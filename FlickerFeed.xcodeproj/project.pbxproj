@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0CB73B6F094DE67060EE76 /* Pods_FlickerFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A08D73EAC29B4C882A231D /* Pods_FlickerFeed.framework */; };
+		C36D62521E33376700140544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62511E33376700140544 /* AppDelegate.swift */; };
+		C36D62541E33376700140544 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62531E33376700140544 /* MainViewController.swift */; };
+		C36D62571E33376700140544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36D62551E33376700140544 /* Main.storyboard */; };
+		C36D62591E33376700140544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36D62581E33376700140544 /* Assets.xcassets */; };
+		C36D625C1E33376700140544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36D625A1E33376700140544 /* LaunchScreen.storyboard */; };
+		C36D62641E3339F900140544 /* PagingImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62631E3339F900140544 /* PagingImageViewCell.swift */; };
+		C36D62661E333AF500140544 /* DTZoomableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62651E333AF500140544 /* DTZoomableView.swift */; };
+		C36D62691E333BD200140544 /* FeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62681E333BD200140544 /* FeedManager.swift */; };
+		C36D62701E333D0100140544 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D626F1E333D0100140544 /* Parser.swift */; };
+		C36D62721E333E0300140544 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62711E333E0300140544 /* Reachability.swift */; };
+		C36D62761E33426000140544 /* FlickerJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62751E33426000140544 /* FlickerJSON.swift */; };
+		C36D62781E33426B00140544 /* FlickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62771E33426B00140544 /* FlickerItem.swift */; };
+		C36D627A1E33431D00140544 /* FlickerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62791E33431D00140544 /* FlickerMedia.swift */; };
+		C36D627C1E33483400140544 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D627B1E33483400140544 /* ImageManager.swift */; };
+		C36D627E1E334CF300140544 /* PagingImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36D627D1E334CF300140544 /* PagingImageViewCell.xib */; };
+		C36D62801E334E4E00140544 /* FlickerFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D627F1E334E4E00140544 /* FlickerFeedViewController.swift */; };
+		C36D62831E335CF700140544 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36D62821E335CF700140544 /* ModalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5818DE6EEB7DBD8A27B426B /* Pods-FlickerFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlickerFeed/Pods-FlickerFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		C36D624E1E33376700140544 /* FlickerFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickerFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36D62511E33376700140544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C36D62531E33376700140544 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C36D62561E33376700140544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36D62581E33376700140544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C36D625B1E33376700140544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C36D625D1E33376700140544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36D62631E3339F900140544 /* PagingImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingImageViewCell.swift; sourceTree = "<group>"; };
+		C36D62651E333AF500140544 /* DTZoomableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTZoomableView.swift; sourceTree = "<group>"; };
+		C36D62681E333BD200140544 /* FeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedManager.swift; sourceTree = "<group>"; };
+		C36D626F1E333D0100140544 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		C36D62711E333E0300140544 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C36D62751E33426000140544 /* FlickerJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerJSON.swift; sourceTree = "<group>"; };
+		C36D62771E33426B00140544 /* FlickerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerItem.swift; sourceTree = "<group>"; };
+		C36D62791E33431D00140544 /* FlickerMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerMedia.swift; sourceTree = "<group>"; };
+		C36D627B1E33483400140544 /* ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		C36D627D1E334CF300140544 /* PagingImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PagingImageViewCell.xib; sourceTree = "<group>"; };
+		C36D627F1E334E4E00140544 /* FlickerFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickerFeedViewController.swift; sourceTree = "<group>"; };
+		C36D62821E335CF700140544 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		F5A08D73EAC29B4C882A231D /* Pods_FlickerFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlickerFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ED5A515033A99DB7F11D59 /* Pods-FlickerFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlickerFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlickerFeed/Pods-FlickerFeed.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36D624B1E33376700140544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0CB73B6F094DE67060EE76 /* Pods_FlickerFeed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0B4BCCE4CD371991E4A810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A08D73EAC29B4C882A231D /* Pods_FlickerFeed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB3316D14348C5BA213409F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5818DE6EEB7DBD8A27B426B /* Pods-FlickerFeed.debug.xcconfig */,
+				F7ED5A515033A99DB7F11D59 /* Pods-FlickerFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C36D62451E33376700140544 = {
+			isa = PBXGroup;
+			children = (
+				C36D62501E33376700140544 /* FlickerFeed */,
+				C36D624F1E33376700140544 /* Products */,
+				BFB3316D14348C5BA213409F /* Pods */,
+				AD0B4BCCE4CD371991E4A810 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C36D624F1E33376700140544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36D624E1E33376700140544 /* FlickerFeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36D62501E33376700140544 /* FlickerFeed */ = {
+			isa = PBXGroup;
+			children = (
+				C36D62511E33376700140544 /* AppDelegate.swift */,
+				C36D626E1E333CF300140544 /* Background */,
+				C36D626D1E333CEA00140544 /* UI */,
+				C36D626C1E333CE000140544 /* Models */,
+				C36D62671E333B0900140544 /* Supporting Files */,
+			);
+			path = FlickerFeed;
+			sourceTree = "<group>";
+		};
+		C36D62671E333B0900140544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C36D62711E333E0300140544 /* Reachability.swift */,
+				C36D62651E333AF500140544 /* DTZoomableView.swift */,
+				C36D62581E33376700140544 /* Assets.xcassets */,
+				C36D625D1E33376700140544 /* Info.plist */,
+				C36D625A1E33376700140544 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C36D626C1E333CE000140544 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C36D62751E33426000140544 /* FlickerJSON.swift */,
+				C36D62771E33426B00140544 /* FlickerItem.swift */,
+				C36D62791E33431D00140544 /* FlickerMedia.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C36D626D1E333CEA00140544 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C36D62551E33376700140544 /* Main.storyboard */,
+				C36D62811E33533600140544 /* Basics */,
+				C36D62531E33376700140544 /* MainViewController.swift */,
+				C36D62821E335CF700140544 /* ModalViewController.swift */,
+				C36D62841E3378FB00140544 /* Cells */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C36D626E1E333CF300140544 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				C36D626F1E333D0100140544 /* Parser.swift */,
+				C36D62681E333BD200140544 /* FeedManager.swift */,
+				C36D627B1E33483400140544 /* ImageManager.swift */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		C36D62811E33533600140544 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				C36D627F1E334E4E00140544 /* FlickerFeedViewController.swift */,
+			);
+			name = Basics;
+			sourceTree = "<group>";
+		};
+		C36D62841E3378FB00140544 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C36D62631E3339F900140544 /* PagingImageViewCell.swift */,
+				C36D627D1E334CF300140544 /* PagingImageViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36D624D1E33376700140544 /* FlickerFeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36D62601E33376700140544 /* Build configuration list for PBXNativeTarget "FlickerFeed" */;
+			buildPhases = (
+				712EFA79F53A7575E3606374 /* [CP] Check Pods Manifest.lock */,
+				C36D624A1E33376700140544 /* Sources */,
+				C36D624B1E33376700140544 /* Frameworks */,
+				C36D624C1E33376700140544 /* Resources */,
+				1DBAB6202DC975AEEA896C83 /* [CP] Embed Pods Frameworks */,
+				84F14510E48AD7406485A7E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlickerFeed;
+			productName = FlickerFeed;
+			productReference = C36D624E1E33376700140544 /* FlickerFeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36D62461E33376700140544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yangjehpark;
+				TargetAttributes = {
+					C36D624D1E33376700140544 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C36D62491E33376700140544 /* Build configuration list for PBXProject "FlickerFeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36D62451E33376700140544;
+			productRefGroup = C36D624F1E33376700140544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36D624D1E33376700140544 /* FlickerFeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36D624C1E33376700140544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D627E1E334CF300140544 /* PagingImageViewCell.xib in Resources */,
+				C36D625C1E33376700140544 /* LaunchScreen.storyboard in Resources */,
+				C36D62591E33376700140544 /* Assets.xcassets in Resources */,
+				C36D62571E33376700140544 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DBAB6202DC975AEEA896C83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlickerFeed/Pods-FlickerFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712EFA79F53A7575E3606374 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84F14510E48AD7406485A7E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlickerFeed/Pods-FlickerFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36D624A1E33376700140544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36D62781E33426B00140544 /* FlickerItem.swift in Sources */,
+				C36D62541E33376700140544 /* MainViewController.swift in Sources */,
+				C36D62691E333BD200140544 /* FeedManager.swift in Sources */,
+				C36D627A1E33431D00140544 /* FlickerMedia.swift in Sources */,
+				C36D62641E3339F900140544 /* PagingImageViewCell.swift in Sources */,
+				C36D62831E335CF700140544 /* ModalViewController.swift in Sources */,
+				C36D62801E334E4E00140544 /* FlickerFeedViewController.swift in Sources */,
+				C36D62521E33376700140544 /* AppDelegate.swift in Sources */,
+				C36D62661E333AF500140544 /* DTZoomableView.swift in Sources */,
+				C36D62721E333E0300140544 /* Reachability.swift in Sources */,
+				C36D62761E33426000140544 /* FlickerJSON.swift in Sources */,
+				C36D62701E333D0100140544 /* Parser.swift in Sources */,
+				C36D627C1E33483400140544 /* ImageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C36D62551E33376700140544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36D62561E33376700140544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C36D625A1E33376700140544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36D625B1E33376700140544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36D625E1E33376700140544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C36D625F1E33376700140544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36D62611E33376700140544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5818DE6EEB7DBD8A27B426B /* Pods-FlickerFeed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlickerFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = indie.yangjehpark.FlickerFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C36D62621E33376700140544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7ED5A515033A99DB7F11D59 /* Pods-FlickerFeed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlickerFeed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = indie.yangjehpark.FlickerFeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36D62491E33376700140544 /* Build configuration list for PBXProject "FlickerFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36D625E1E33376700140544 /* Debug */,
+				C36D625F1E33376700140544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36D62601E33376700140544 /* Build configuration list for PBXNativeTarget "FlickerFeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36D62611E33376700140544 /* Debug */,
+				C36D62621E33376700140544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36D62461E33376700140544 /* Project object */;
+}
